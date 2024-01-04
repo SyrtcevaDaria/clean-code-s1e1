@@ -96,7 +96,8 @@ button {
 }
 
 /* New Task */
-.add-label {
+.add-label,
+.add-section .section-header {
   display: block;
   margin: 0 0 20px;
 }
