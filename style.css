@@ -46,12 +46,12 @@ button {
 /* .task, */
 .list__item__input,
 .list__item__label,
-.add__input {
+.add-section__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.add__wrap {
+.add-section__wrap {
   display: flex;
 }
 .btn {
@@ -78,8 +78,8 @@ button {
   text-transform: uppercase;
 }
 
-.add__input,
-.list__item__input{
+.add-section__input,
+.list__item__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,10 +98,10 @@ button {
 /* New Task */
 .add-label,
 .add-section .section-header {
-    display: block;
-    margin: 0 0 20px;
+  display: block;
+  margin: 0 0 20px;
 }
-.add__input {
+.add-section__input {
   width: 318px;
 }
 
@@ -128,7 +128,7 @@ button {
   font-size: 18px;
   width: 226px;
 }
-.list__item > .add__input,
+.list__item > .add-section__input,
 .list__item > .list__item__input {
   width: 226px;
 }
@@ -148,12 +148,12 @@ button {
 }
 
 /* Edit Task */
-.list .list__item .add__input,
+.list .list__item .add-section__input,
 .list .list__item .list__item__input {
   display: none;
 }
 
-.list .list__item.list__item_edit .add__input,
+.list .list__item.list__item_edit .add-section__input,
 .list .list__item.list__item_edit .list__item__input {
   display: inline-block;
   width: 224px;
